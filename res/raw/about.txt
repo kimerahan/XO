@@ -1,0 +1,36 @@
+
+				        XO GAME                 
+				     HOW TO PLAY 
+               ---------------------------
+	             THE AIM OF THE GAME IS 
+	                   TO BE THE 
+	              FIRST TO GET 3 IN A ROW OF 
+	                   THE 3X3 GRID 
+	              YOU ALTERNATE MAKING
+	                  THE X AND O ON 
+	              THE BOARD UNTIL ONE
+	                   MAKES 3 IN A ROW, 
+	               IN ANY DIRECTION WHEN ALL 
+	               SQUARES ARE FILLED
+	                    
+	               AND NO WINNER 
+	                  THEN ITS A DRAW
+	                  THE STAR SIGN 
+	               REPRESENTS THE SCORE 
+	                  IN THE HUMAN,THE PLAYER1
+	                AND PLAYER 2 IMAGES WHEN
+	                    CLICKED,
+	                INDICATES THE SCORES 
+	                  RESPECTIVELY
+	           
+                   THERE IS ALSO AN OPTION
+                    FOR RETRACE IN HARD
+                  WHERE AFTER PLAYING HARD,
+                     YOU CAN RETRACE YOUR
+                    MOVES TO BE A CHAMP OF 
+                           THE GAME	 
+                    THE TWO ICONS BELOW
+                            INDICATE
+                       THEIR SIGNIFICANCE
+                                         
+	          *****************ENJOY*********************

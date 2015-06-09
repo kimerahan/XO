@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/line1"
+        android:layout_width="6dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/blanksquare" />
+ 
+    <ImageView
+        android:id="@+id/ImageView2"
+        android:layout_width="3dp"
+        android:layout_height="240dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/button1" />
+
+    <ImageView
+        android:id="@+id/ImageView3"
+        android:layout_width="240dp"
+        android:layout_height="3dp"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/ImageView4"
+        android:layout_width="240dp"
+        android:layout_height="3dp"
+        android:layout_alignLeft="@+id/ImageView3"
+        android:layout_below="@+id/button1" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignRight="@+id/ImageView3"
+        android:layout_alignTop="@+id/ImageView2"
+        android:background="@drawable/blanksquare" />
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="3dp"
+        android:layout_height="240dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/ImageView3"
+        android:layout_toRightOf="@+id/ImageView1"
+        android:background="@drawable/blanksquare" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignLeft="@+id/ImageView3"
+        android:layout_alignTop="@+id/ImageView1"
+        android:background="@drawable/blanksquare" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/ImageView4"
+        android:layout_alignLeft="@+id/ImageView4"
+        android:background="@drawable/blanksquare" />
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_above="@+id/ImageView4"
+        android:layout_alignRight="@+id/ImageView4"
+        android:background="@drawable/blanksquare" />
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignBottom="@+id/ImageView1"
+        android:layout_toLeftOf="@+id/ImageView1"
+        android:background="@drawable/blanksquare" />
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignBottom="@+id/line1"
+        android:layout_toLeftOf="@+id/ImageView2"
+        android:background="@drawable/blanksquare" />
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_alignBottom="@+id/ImageView2"
+        android:layout_toRightOf="@+id/ImageView2"
+        android:background="@drawable/blanksquare" />
+
+   
+    <ImageView 
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:padding="7dp" >
+
+        <Button
+            android:id="@+id/imageButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/custom"
+            android:padding="15dp"
+            android:text="New Game"
+            android:textColor="#79098a" />
+
+        <Button
+            android:id="@+id/retrace"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/custom"
+            android:padding="15dp"
+            android:text="Retrace"
+            android:textColor="#79098a" />
+
+        <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/newgame"
+        android:layout_alignBottom="@+id/newgame"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="17dp" />
+    
+        
+    </LinearLayout>
+
+      <ImageView
+          android:id="@+id/player1image"
+          android:layout_width="110dp"
+          android:layout_height="60dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignTop="@+id/imageView"
+          android:src="@drawable/player1" />
+
+      <ImageButton
+          android:id="@+id/imageButton3"
+          android:layout_width="110dp"
+          android:layout_height="60dp"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/imageView"
+          android:background="@drawable/blank"
+          android:src="@drawable/android" />
+
+</RelativeLayout>
